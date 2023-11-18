@@ -1,6 +1,8 @@
 # Gigo
 
-gigo means "garbage in, garbage out". It is a command line interface (CLI) tool that uses the OpenAI API to generate text based on your input.
+gigo means "garbage in, garbage out". It is a command line interface (CLI) tool that uses the LLM to generate text based on your input.
+
+Currently it only supports OpenAI's API, but I plan to add support for other LLMs in the future.
 
 This is a simple command line interface (CLI) tool written in Rust. It takes standard input, sends it to the OpenAI API, and outputs the result to the standard output.
 
