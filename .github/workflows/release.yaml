@@ -13,19 +13,9 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-
-      - name: Install Rust
-        uses: actions-rs/toolchain@v1
-        with:
-          toolchain: stable
-          override: true
-
+      - uses: dtolnay/rust-toolchain@stable
       - name: Build
-        uses: actions-rs/cargo@v1
-        with:
-          command: build
-          args: --release
-
+        run: cargo build --release
       - name: Release
         uses: softprops/action-gh-release@v1
         with:
