@@ -2,6 +2,9 @@
 name = "gigo"
 version = "0.0.1"
 authors = ["Naoki AINOYA <ainonic@gmail.com>"]
+license = "MIT"
+description = "A CLI tool to get text from LLMs with a single command."
+repository = "https://github.com/ainoya/gigo"
 edition = "2021"
 
 [dependencies]
