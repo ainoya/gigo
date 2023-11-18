@@ -1,6 +1,6 @@
 [package]
 name = "gigo"
-version = "0.0.4"
+version = "0.0.5"
 authors = ["Naoki AINOYA <ainonic@gmail.com>"]
 license = "MIT"
 description = "A CLI tool to get text from LLMs with a single command."
