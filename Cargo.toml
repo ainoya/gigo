@@ -1,0 +1,15 @@
+[package]
+name = "gigo"
+version = "0.0.1"
+authors = ["Naoki AINOYA <ainonic@gmail.com>"]
+edition = "2021"
+
+[dependencies]
+reqwest = { version = "0.11", features = ["json"] }
+tokio = { version = "^1", features = ["full"] }
+serde = "1.0"
+serde_json = "1.0"
+
+[[bin]]
+name = "gigo"
+path = "src/main.rs"
